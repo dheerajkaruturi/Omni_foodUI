@@ -1,0 +1,42 @@
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+    border: none;
+    z-index: 9999;
+  } 
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 90%;
+    margin-top: 10px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 10px; 
+    text-decoration: none;
+    color: #efefef; 
+    transition: border-bottom 0.1s;
+
+  }
+  
+  .nav > .nav-links > a:hover {
+    border-bottom: 2px solid #e67e22 ;
+    padding-bottom: 5px;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }

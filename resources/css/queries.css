@@ -1,0 +1,187 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* bigger tablet from 1024px to 1200px pc screens or any other devices (big tablets with more than 1023 px width and screen width less than or equal to 1200px) */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2% !important;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+/* small tablet from 768px to 1023px (small tabs with 768 px width and tablets less than or equal to 1023px) */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .app-iPhone {
+    width: 50%;
+  }
+  .work-steps {
+    margin: 30px 0;
+  }
+  .steps-box:last-child {
+    margin-top: 40px;
+  }
+  .work-steps:last-of-type {
+    margin-bottom: 80px;
+  }
+  .work-steps div {
+    margin-right: 20px;
+    padding: 3px;
+  }
+  .city-img img {
+    margin-bottom: 10px;
+  }
+  .city-list li {
+    padding: 3px 0;
+    margin-left: 2px;
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .city-list li i {
+    margin-right: 10px;
+  }
+  .section-testimonials blockquote {
+    font-weight: 300;
+    color: white;
+    padding: 0 5px;
+    text-align: left;
+    line-height: 145%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .section-testimonials blockquote::before {
+    font-size: 200%;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .section-form {
+    width: 90%;
+  }
+}
+/* small phone from 481px to 767px (small phns with more than 480 px width and tablets less than 767 or equal to 767px) */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+  .toggle-menu-button {
+    display: flex;
+  }
+  .nav-bar {
+    position: relative;
+    background-color: #282a35;
+  }
+  .nav-bar .logo {
+    width: 70px;
+    height: auto;
+    padding-bottom: 15px;
+  }
+  .nav-links {
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    flex-direction: column;
+    float: left;
+    display: none;
+    background-color: #282a35;
+    width: 100%;
+  }
+  .nav-links li {
+    display: block;
+    padding: 12px 0;
+    margin-top: 5px;
+    margin-left: 35px;
+  }
+  .nav-links li a {
+    padding: 10px 0;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .long-copy {
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+  }
+  .steps-box:first-child {
+    text-align: center;
+    padding-right: 0%;
+  }
+  .work-steps div {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+  }
+  .work-steps p {
+    font-size: 16px;
+  }
+  .city-list {
+    font-size: 16px;
+  }
+  .plan-box div:first-child {
+    text-align: center;
+  }
+  .plan-box ul {
+    font-size: 16px;
+  }
+  button[type="submit"] {
+    text-align: center;
+    margin-left: 150px;
+  }
+  .footer-nav {
+    text-align: center;
+    float: none;
+  }
+  .footer-social {
+    text-align: center;
+    float: none;
+  }
+  .float-btn i {
+    font-size: 22px;
+  }
+}
+
+/* small phone from 0 to 480px (small phones with less than or equal to 480 px like older iphones) */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .section-form {
+    width: 100%;
+    margin: 0;
+  }
+}
