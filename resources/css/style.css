@@ -181,6 +181,23 @@ button[type="submit"] {
   width: auto;
   margin: 10px;
 }
+/* --------- Floating Button ------------ */
+.floating-up-button {
+  background-color: #e67e22;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 21px 24px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  z-index: 9999;
+}
+.floating-up-button i {
+  color: white;
+} 
 /* ============================================ */
 /* Reusable Components*/
 /* ============================================ */
