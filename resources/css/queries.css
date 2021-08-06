@@ -3,7 +3,7 @@
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
-*/ 
+*/
 
 /* bigger tablet from 1024px to 1200px pc screens or any other devices (big tablets with more than 1023 px width and screen width less than or equal to 1200px) */
 @media only screen and (max-width: 1200px) {
@@ -111,8 +111,8 @@
     left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     float: left;
     display: none;
     background-color: #282a35;
